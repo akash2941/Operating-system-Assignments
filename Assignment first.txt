@@ -135,7 +135,7 @@ a)	Display the file using cat command
 	cat z1.txt
 b)	Display line numbers along with content
 	$ cat -n z1.txt
-	cat -b z1.txt(lank line numbers doesnít display )
+	cat -b z1.txt(lank line numbers doesn‚Äôt display )
 
 
 c)	Display the file in reverse order using tac
@@ -152,16 +152,16 @@ b)	sort the files in ascending, descending order
 	for Descending----
 	$ ls -1 | sort  // tac file.txt
 
-c)	Create some hidden files and sub directories and display them using ìls -aî
+c)	Create some hidden files and sub directories and display them using ‚Äúls -a‚Äù
                  it will displays all the txt files and hidden files as well
 
-d)	Change time stamp of some files and directories using touch command and display the files using ls -t ls ñrt
+d)	Change time stamp of some files and directories using touch command and display the files using ls -t ls ‚Äìrt
 e)	
 	Touch command is used to change these timestamps (access time, modification time, and change time of a file).
 
 f)	Recursive display contents of your home directory.
 	Ls -r
-g)	display all attributes of files and directories using ls ñl
+g)	display all attributes of files and directories using ls ‚Äìl
 	$ ls -l
 .txt
 
@@ -242,12 +242,12 @@ d)Copy file inside a into b
 	 chmod +r c
 
 3.	Try copying third level c directory to outside of a
-	cp ñr cc bb
-4.	Create the directory  ìdataì inside b
+	cp ‚Äìr cc bb
+4.	Create the directory  ‚Äúdata‚Äú inside b
 	cd b ?mkdir data
 5.	Change the permission of b to read and write only
 	chmod +r+w b
-6.	Create directory ìdata2î  inside b
+6.	Create directory ‚Äúdata2‚Äù  inside b
 	cd b?mkdir data2
 7.	Create data.txt file inside b
 	cd b?touch data.txt
@@ -279,7 +279,7 @@ d)Copy file inside a into b
 20.	Change group of movies to avahi
 
 21.	Try changing permission after changing ownership to root
-
+            chmod a=rwx a
 22.	Try Changing permission after changing group to sudo without sudo
 
 23.	Try Changing owner and group both to root
