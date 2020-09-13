@@ -120,6 +120,20 @@ drwxrwxr-x 1
 6. Write a shell script to print all files permissions and name of file
 -----------------------------------------------------------------------------------------
 7.Write a shell script to print all files name and size greater than 5K
+
+#!/bin/bash
+	for i in *
+	do
+		if [ -e $i ]
+		then
+			file=`ls -l $i | awk '{print $5}'`
+			if (( $file > 5000 ))
+			then
+				ls -l $i
+			fi 
+		fi
+	done
+
 -------------------------------------------------------------------------------------------
 
 1. Write a script To check given year is leap or not.
